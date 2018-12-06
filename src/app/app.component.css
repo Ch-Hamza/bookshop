@@ -1,0 +1,39 @@
+appapp-bs-navbar {
+  min-height: 100%;
+  width: 100%;
+  margin-bottom: -271px;
+  display: table;
+}
+
+
+router-outlet,
+footer{
+  display: table-row;
+}
+
+header-main {
+ height: 60px;
+}
+
+router-outlet {
+  position: absolute;
+}
+
+footer {
+  height: 271px;
+}
+
+#banner {
+  width : 100%;
+  /* background: url("https://upload.wikimedia.org/wikipedia/en/thumb/3/33/Jurassicpark.jpg/220px-Jurassicpark.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+main {
+  margin: 0px;
+  max-width: 100%;
+  max-height: 100%;
+}
