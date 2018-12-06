@@ -1,10 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
 appapp-bs-navbar {
   min-height: 100%;
   width: 100%;
   margin-bottom: -271px;
   display: table;
 }
-
 
 router-outlet,
 footer{
@@ -20,7 +29,7 @@ router-outlet {
 }
 
 footer {
-  height: 271px;
+  height: 20px;
 }
 
 #banner {
@@ -30,6 +39,7 @@ footer {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; */
+  background-color: brown;
 }
 
 main {

@@ -33,5 +33,9 @@ export class ProductsComponent {
       });
   }
 
+  scroll(el) {
+    el.scrollIntoView({behavior:"smooth", block: 'start' });
+  }
+
 
 }

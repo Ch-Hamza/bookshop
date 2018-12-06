@@ -1,3 +1,39 @@
 .dropdown-toggle {
   cursor: pointer;
 }
+
+.img-custom {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+nav {
+  opacity: 0.7;
+}
+
+.dropdown-menu {
+  width: 1100px !important;
+  background-color: #343A40;
+  opacity: 0.8;
+}
+
+.custom-btn {
+  border-color: #00BFFF;
+  color: #00BFFF;
+  background-color: transparent;
+}
+
+.custom-btn:hover {
+  background-color: #00BFFF;
+  color: white;
+}
+
+.custom-text,a {
+  color: #00BFFF;
+}
+
+.custom-search {
+  outline: 2px solid #00BFFF;
+}
